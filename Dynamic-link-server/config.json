@@ -1,0 +1,30 @@
+{
+    "port": 3000,
+    "routes": [
+      {
+        "path": "/sharpely",
+        "method": "GET",
+        "defaultRedirect": "https://www.sharpely.in",
+        "appRedirect": "sharpely://portfolio"
+      },
+      {
+        "path": "/sharpely/stocks/dashboard",
+        "method": "GET",
+        "defaultRedirect": "https://sharpely.in/stocks/dashboard",
+        "appRedirect": "sharpely://stocks"
+      },
+      {
+        "path": "/sharpely/etfs/dashboard",
+        "method": "GET",
+        "defaultRedirect": "https://sharpely.in/etfs/dashboard",
+        "appRedirect": "sharpely://stylebox"
+      },
+      {
+        "path": "/sharpely/etfs/screener",
+        "method": "GET",
+        "defaultRedirect": "https://sharpely.in/etfs/screener",
+        "appRedirect": "sharpely://etfs"
+      }
+    ]
+  }
+  
